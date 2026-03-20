@@ -104,7 +104,7 @@ export function ProjectCard({
 
       {/* Footer Links (GitHub / Live etc.) */}
       <CardFooter className="px-2 pb-2">
-        {links?.length > 0 && (
+       {links && links.length > 0 && (
           <div className="flex flex-wrap gap-1">
             {links.map((item, idx) => (
               <Link href={item.href} key={idx} target="_blank">
