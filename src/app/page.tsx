@@ -139,7 +139,7 @@ export default function Page() {
       <section id="coding">
         <h2 className="text-xl font-bold mb-4">Coding Profiles</h2>
 
-        <CodingHorizontal data={DATA.codingStats} />
+        <CodingHorizontal />
       </section>
       <section id="projects">
         <div className="space-y-6 w-full py-6">
