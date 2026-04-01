@@ -137,6 +137,43 @@ export const DATA = {
 
   projects: [
     {
+      title: "AI Interview Strategy Platform",
+      href: "https://github.com/g-naman07/JOB-READY",
+      image: "/aiinterview.png",
+      active: true,
+      description:
+        "Developed a full-stack AI-powered platform that generates personalized interview strategies by analyzing resumes and job descriptions. Implemented workflows for match scoring, interview question generation, skill gap analysis, and ATS-optimized resume PDF generation.",
+      technologies: [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Gemini AI",
+        "JWT",
+        "Puppeteer"
+      ],
+      links: [],
+    },
+    {
+      title: "CoEditX - Collaborative Cloud IDE",
+      href: "https://coeditx.vercel.app/",
+      image: "/image.png",
+      active: true,
+      description:
+        "Built a real-time collaborative coding platform enabling multiple users to edit code simultaneously with low-latency synchronization. Designed a distributed backend using Redis Queue and Pub/Sub, implemented Docker-based sandboxed execution, and deployed scalable infrastructure on AWS.",
+      technologies: [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "WebSockets",
+        "Redis",
+        "Docker",
+        "AWS"
+      ],
+      links: [],
+    },
+    {
       title: "College & Rank Predictor",
       href: "https://jee2026-predictor.vercel.app/",
       image: "/rank2college.png",
