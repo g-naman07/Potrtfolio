@@ -137,6 +137,24 @@ export const DATA = {
 
   projects: [
     {
+      title: "File Taco - P2P File Transfer",
+      href: "https://file-nacho.vercel.app/",
+      image: "/filenacho.png",
+      active: true,
+      description:
+        "Built a peer-to-peer file transfer web application enabling direct browser-to-browser file sharing without relying on a central server for transmission. Utilized WebRTC for real-time communication with a lightweight signaling server for initial connection setup. Implemented Huffman coding for pre-transfer compression to reduce file size and optimize bandwidth usage. Designed a file chunking mechanism to handle large transfers, ensuring flow control, reliability, and reduced transmission failures. Chunks are efficiently reassembled and decompressed on the receiver side. Optimized for moderate-sized files considering browser memory constraints.",
+      technologies: [
+        "React",
+        "Node.js",
+        "Express",
+        "WebRTC",
+        "Socket.io",
+        "Huffman Coding",
+        "JavaScript"
+      ],
+      links: [],
+    },
+    {
       title: "AI Interview Strategy Platform",
       href: "https://github.com/g-naman07/JOB-READY",
       image: "/aiinterview.png",
